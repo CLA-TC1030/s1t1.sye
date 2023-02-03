@@ -33,5 +33,5 @@ void Tablero::setCasilla(CCasilla c, int i)
 // Devuelve la casilla en la posición i --------------------
 CCasilla Tablero::getCasilla(int i)
 {
-    
+    return CCasilla();
 }

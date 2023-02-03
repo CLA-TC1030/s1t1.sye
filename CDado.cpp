@@ -2,13 +2,14 @@
 
 int CDado::cara = 0;
 
+//Constructor por default: aleatorio (switchrandom=true) y con la cara en (1)
 CDado::CDado()
 {
     this->switchrandom=true;
     this->cara=1;
 }
 
-// Crea un dado aleatorio (sr=true) / no aleatorio (sr=false)
+// Crea un dado aleatorio, si (sr=true) / no aleatorio, si (sr=false)
 CDado::CDado(bool sr)
 {
     this->switchrandom=sr;
