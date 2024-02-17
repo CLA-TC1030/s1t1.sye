@@ -12,7 +12,7 @@ private:
     Tablero t;
     Jugador j[MAX_JUGADORES];
     CDado d;
-    bool swio;
+    bool swio; // IO por Archivo=true, IO por Teclado=false
 
 // Archivos de entrada/salida para el caso de configuracion de IO por archivos ---------
     std::ifstream fi{"input"};
@@ -20,6 +20,7 @@ private:
 public:
     static int turno;
     Game();
+// Game("Archivo de tablero", Dado aleatorio=true/false, IO por Archivo=true, IO por Teclado=false)
     Game(std::string, bool, bool);
     void start();
     void outMsg(std::string);

@@ -11,7 +11,7 @@ Game::Game(std::string tf, bool swa, bool swio)
 {
     this->t    = Tablero(tf);
     this->d    = CDado(swa);
-    this->swio = swio;          //Switch IO: false = keyboard : true = input file
+    this->swio = swio;          //Switch IO: : true = archivo, false = teclado 
 
     for (auto i=0; i < MAX_JUGADORES;i++) {
         this->j[i] = Jugador(i+1);
