@@ -7,7 +7,7 @@ Esta tarea consiste en implementar el Juego de Serpientes y Escaleras basado en 
 ## Ejemplo de Ejecución
 ```
 Ejecutando el juego con dado no aleatorio (false) y entrada por Archivo (build/input)...
-Finalizando el juego con salida por Archvio (build/output):
+Finalizando el juego con salida por Archivo (build/output):
 Press C to continue next turn, or E to end the game
 1 1 1 2 N 3
 2 2 1 3 N 4
