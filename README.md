@@ -4,6 +4,12 @@
 
 Esta tarea consiste en implementar el Juego de Serpientes y Escaleras basado en Composición y Herencia.
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Snakes_and_Ladders_-_Board_Game.svg/600px-Snakes_and_Ladders_-_Board_Game.svg.png"
+       alt="Tablero de serpientes y escaleras"
+       width="300">
+</p>
+
 ## Ejemplo de Ejecución
 ```
 Ejecutando el juego con dado no aleatorio (false) y entrada por Archivo (build/input)...
